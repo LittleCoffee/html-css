@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+      @font-face {
+        font-family: 'Olondona';
+        src: url(../ex18b/fontes/Olondona.otf) format('opentype');
+      }
+       /* tipos de formato
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype aat (apple advanced typography)
+            -svg*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+            
+        }
+        h1{
+            font-family: 'Olondona';
+            font-size: 3em;
+        }
+        h2{
+            font-family: 'Olondona', cursive;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Títutlo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit similique porro soluta culpa omnis, quia deleniti modi voluptate debitis est, dicta doloremque officiis assumenda quas dolores repudiandae unde fugit rem.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae enim ut, qui accusamus aperiam odit dolor vero! Alias nostrum earum blanditiis dolor ea necessitatibus facilis in placeat molestias saepe.</p>
+</body>
+</html>

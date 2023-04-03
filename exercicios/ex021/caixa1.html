@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        /* ordem de carregamento:
+         top -> right-> bottom -> left*/
+         
+        h1{ /* box level*/
+            background-color: gray;
+            width: 300px;
+            height: 300px;
+            border: 10px solid black;
+
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+
+            margin: 10px 10px 40px 10px;
+
+            outline: 10px solid rgba(191, 194, 7, 0.342);
+        }
+        
+    
+        a{ /*inline level*/
+            border: 10px solid red;
+            padding: 10px 10px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de caixa</h1>
+    <p>Esse é um teste de caixas, <a href="#">links são caixas inline-level</a> e paragrafos são box-level.</p>
+</body>
+</html>
