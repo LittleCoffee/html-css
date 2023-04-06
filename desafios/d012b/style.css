@@ -41,26 +41,40 @@ header p {
     font-size: 1.3em;
 }
 
-section {
-    padding-left: 30px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    font-family: var(--fonte1);
-    font-size: 2.6vw;
-}
-
 main .normal {
     background-color: white;
 }
 
-main .imagem {
-    color: white;
+section {
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--fonte1);
 }
-.imagem p {
+section > p {
+    padding-bottom: 10px;
+    font-size: 3.3vw;
+    line-height: 2em;
+}
+
+section.imagem > p {
     background-color: rgba(0, 0, 0, 0.39);
     display: inline-block;
     padding: 20px 20px 20px 0px;
+    color: white;
+    text-shadow: 1px 2px 0px black;
+}
+section.imagem {
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section#img01 {
+    background-image: url(..//d012b/imagens/background001.jpg);
+}
+section#img02 {
+    background-image: url(..//d012b/imagens/background002.jpg);
 }
 header a, footer a {
     text-decoration: none;
