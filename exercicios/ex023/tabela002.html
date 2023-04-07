@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        caption {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.3em;
+            background-color: rgba(0, 0, 0, 0.349);
+            border-radius: 10px 10px 0px 0px;
+            padding: 10px;
+
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: gray;
+            color: white;
+        }
+        td {
+            text-align: justify;
+        }
+        .num {
+            text-align: right;
+            width: 100px;
+        }
+         /* nth-child: odd, even, 2n, 2n-1*/
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(128, 128, 128, 0.356);
+        }
+        tfoot {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Anatomia de tabelas grandes 
+        Thead
+            th, tr, td
+        Tbody
+            th, tr, td
+        Tfoot
+            th, tr, td
+    -->
+    <h1>Tabelas grandes</h1>
+    
+    <table>
+        <caption>População por estado</caption>
+        <thead>
+            <tr>
+                <th scope="col">Unidade Federativa</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Bahia</td>
+                <td scope="row" class="num">14 659 023</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 835 379</td>
+            </tr>
+            <tr>
+                <td>Rio Grande so Sul</td>
+                <td class="num">11 088 065</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td scope="col">População Total</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
