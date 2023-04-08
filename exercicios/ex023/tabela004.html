@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwutRIU58aRDidOKvO96L6s-GVPPUgVLRwVHCZuBNp_lsB5phOVRucwRr_TNqyT67v2xc&usqp=CAU);
+            background-repeat: no-repeat;
+            position: absolute;
+            background-position: top center;
+            background-color: rgba(128, 128, 128, 0.233);
+        }
+        table {
+            width: 30vw;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: gray;
+        }
+        table .meme:nth-child(odd) {
+            background-color: rgba(255, 255, 19, 0.788);
+        }
+        caption {
+            font-weight: bold;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Chefe é Chefe né pae</caption>
+        <tr class="meme">
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr class="meme">
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2n">10</td>
+            <td colspan="2n">11</td>
+            <td>12</td>
+        </tr>
+        <tr class="meme">
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+</body>
+</html>
