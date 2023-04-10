@@ -11,6 +11,7 @@
             height: 50vh;
             display: block;
             margin: auto;
+            border: 1px solid black;
         }
     </style>
 </head>
@@ -30,5 +31,12 @@
     </ul>
     <iframe src="" name="tela"></iframe>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus illum, itaque laboriosam laborum ducimus esse at quo amet iusto animi. Blanditiis tenetur, praesentium saepe consectetur nam repudiandae. Commodi, itaque!</p>
+
+    <h1>Iframe editado inline</h1>
+    <p>Nesse iframe usamos <strong>srcdoc</strong> ao inves de <strong>src</strong> assim podemos adicionar conteudo ao inframe dentro do propio documento.</p>
+    <iframe srcdoc="<h1> Exemplo de conteudo</h1><img src='edbackground.png'>">
+        <p>infelizmente seu navegador não é compativel</p>
+    </iframe>
+    <p>é possivel adicionar textos ou avisos dentro do iframe que irão aparecer caso não seja compativel com o navegador do cliente não seja compativel.</p>
 </body>
 </html>
