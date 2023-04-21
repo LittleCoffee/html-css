@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* folha de impressão */
+
+* {
+    margin: 0px;
+    padding: 5px;
+}
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu {
+    display: none;
+}
+
+section::after {
+    content: 'artigo escrito por eu';
+}
